@@ -1,0 +1,49 @@
+@import url("base.css");
+@import url("header.css");
+@import url("aside.css");
+@import url("main.css");
+@import url("footer.css");
+
+@media (max-width: 767px) {
+    .navigation img {
+        display: none;
+    }
+    .navigation{
+        margin-top: 70px;
+    }
+
+    #picture4, #picture3 {
+        display: none;
+    }
+
+    .main-section .row.mt-4 .col-12 {
+        padding-bottom: 1rem; 
+    }
+
+    .main-section .row.mt-4 .col-12 img {
+        width: 100%;
+        height: auto;
+    }
+    main{
+        margin-bottom: 1.5rem;
+    }
+    footer .d-flex {
+        flex-direction: column;
+    }
+    
+    footer .col-md-2 {
+        max-width: 100%;
+        padding: 10px 0;
+    }
+    footer .img-fluid {
+        width: 100%;
+        max-height: 250px;
+        height: 100%;
+        object-fit: cover; 
+        transition: transform 0.3s ease-in-out;
+    }
+    footer .col-md-2:hover .img-fluid {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
+}

@@ -1,0 +1,102 @@
+header .container{
+    background-image: url('../img/header/background.png');
+    background-size: cover;
+    width: 100%;
+}
+
+header .logo img {
+    max-width: 337px;
+    height: auto;
+    width: 100%;
+}
+
+header .input-group .form-control,
+header .input-group .btn {
+    border-radius: 5;
+}
+header .navigation .nav-item a{
+    color: var(--color-black);
+    padding: 5px 5px;
+}
+.navigation .nav-item a:hover {
+    color: var(--color-red);
+}
+header .input-group .form-select,
+header .input-group .form-control,
+header .input-group-text{
+    border: 1px solid var(--color-dark-grey); 
+    background-color: var(--color-white); 
+    color: var(--color-black); 
+}
+header .input-group .form-control::placeholder,
+header .input-group {
+    color: var(--color-light-grey); 
+    font-size: 2vw;
+}
+header .form-select{
+    color: var(--color-light-black); 
+    font-size: 2vw;
+}
+header .input-group .form-select,
+header .input-group .form-control,
+header .input-group-text, .btn-custom {
+    margin: 5px; 
+}
+header .input-group-text {
+    background-color: var(--color-white); 
+    font-size: 3vw;
+}
+
+header .nav-item, 
+header .btn-custom {
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-size: 2vw;
+    opacity: 0.9;
+    background-color: var(--color-white); 
+    border: 1px solid var(--color-dark-grey);
+    border-radius: 5px;
+    color: var(--color-black);
+    padding: 10px 20px;
+    text-align: center; 
+    position: relative;
+    z-index: 10; 
+}
+
+header .btn-custom:hover, 
+header .nav-item:hover {
+    color: var(--color-red); 
+    transform: scale(1.1); 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); 
+    opacity: 1; 
+    z-index: 1000;
+}
+
+header .navigation {
+    margin-top: 230px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+header .navigation img {
+    max-height: 260px;
+    object-fit: cover;
+    margin-left: -20px;
+    transform: translateY(4px); 
+    position: relative; 
+    z-index: 5;
+}
+header .nav {
+    display: flex;
+    align-items: flex-end; 
+    overflow: visible;
+}
+header .nav-item {
+    padding: 10px;
+    display: inline-flex; 
+    align-items: center;  
+    justify-content: center; 
+    white-space: nowrap;
+    position: relative; 
+    z-index: 10; 
+}
