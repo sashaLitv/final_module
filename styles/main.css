@@ -26,9 +26,5 @@ main .picture{
 }
 #picture1, #picture2{
     object-fit: fill;
-    height:90%;
-}
-
-#picture1{
-    max-width: 450px;
+    height:100%;
 }
